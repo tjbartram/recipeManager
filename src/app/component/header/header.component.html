@@ -1,0 +1,69 @@
+<!-- <div>
+	<div class="container">
+		<div class="d-flex justify-content-center">
+			<h6>Recipe Manager!</h6>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li #navItemHome class="nav-item active">
+						<a class="nav-link" href="./#/home">Home<span class="sr-only">(current)</span></a>
+					</li>
+					<li #navItemRecipe class="nav-item">
+						<a class="nav-link" href="./#/recipe">Recipe</a>
+					</li>
+					<li #navItemIngredient class="nav-item">
+						<a class="nav-link" href="./#/ingredients">Ingredients</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="button" (click)="buttonSearchClick($event)">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+</div> -->
+
+<div>
+	<div class="container">
+		<div class="d-flex justify-content-center">
+			<h2>Recipe Manager!</h2>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li #navItemHome class="nav-item active">
+						<a class="nav-link" routerLink="/home">Home<span class="sr-only">(current)</span></a>
+					</li>
+					<li #navItemRecipe class="nav-item">
+						<a class="nav-link" routerLink="/recipe">Recipe</a>
+					</li>
+					<li #navItemIngredient class="nav-item">
+						<a class="nav-link" routerLink="/ingredient">Ingredients</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="button" (click)="buttonSearchClick($event)">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+</div>

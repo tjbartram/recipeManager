@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Custom variables
+@import "variables";
+
+@import "~ngx-toastr/toastr";
+// Import styles with default layout.
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import "~ngx-toastr/toastr-bs4-alert";
+
+// If you want to add something do it here
+@import "custom";
+
+
